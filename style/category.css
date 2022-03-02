@@ -1,0 +1,13 @@
+/* Import base */
+@import url(/style/00_base/variables.css);
+@import url(/style/00_base/typography.css);
+@import url(/style/00_base/resets.css);
+
+/* Import modules */
+@import url(/style/01_modules/header.css);
+@import url(/style/01_modules/searchForm.css);
+@import url(/style/01_modules/resultsSection.css);
+
+main {
+    padding-top: 80px;
+}
