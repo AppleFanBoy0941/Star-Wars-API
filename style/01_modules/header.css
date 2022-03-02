@@ -1,0 +1,58 @@
+.header {
+    height: 80px;
+    display: flex;
+    padding: 1rem 3rem;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: var(--neutral600);
+    width: 100%;
+}
+
+.header__logo {
+    height: 100%;
+}
+
+.header__logo img {
+    height: 100%;
+}
+
+.navigation__listView {
+    display: flex;
+    gap: 2rem;
+}
+
+.listView__listItem {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.listView__listItem a {
+    position: relative;
+    letter-spacing: 2px;
+    padding: .5em 1em;
+}
+
+.listView__listItem a::before, .listView__listItem a::after {
+    content: '';
+    position: absolute;
+    background: var(--neutral400);
+    height: 2px;
+    width: 0;
+    border-radius: 9px;
+    transition: .3s;
+}
+
+.listView__listItem a::before {
+    top: 0;
+    right: 0;
+}
+
+.listView__listItem a::after {
+    bottom: 0;
+    left: 0;
+}
+
+.listView__listItem:hover a::before, .listView__listItem:hover a::after {
+    width: 100%;
+}

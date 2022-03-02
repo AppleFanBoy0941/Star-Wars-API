@@ -1,0 +1,16 @@
+/* Import base */
+@import url(/style/00_base/variables.css);
+@import url(/style/00_base/typography.css);
+@import url(/style/00_base/resets.css);
+
+/* Import modules */
+@import url(/style/01_modules/header.css);
+@import url(/style/01_modules/searchForm.css);
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

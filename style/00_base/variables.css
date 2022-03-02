@@ -1,0 +1,12 @@
+:root {
+    --primary: hsl(54, 100%, 50%);
+    --secondary: hsl(346, 100%, 42%);
+    --tertiary: hsl(26, 100%, 53%);
+
+    --neutral100: hsl(0, 0%, 100%);
+    --neutral200: hsl(0, 0%, 60%);
+    --neutral300: hsl(0, 0%, 42%);
+    --neutral400: hsl(0, 0%, 20%);
+    --neutral500: hsl(0, 0%, 15%);
+    --neutral600: hsl(180, 5%, 4%);
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Star Wars API</title>
+        <link rel="stylesheet" href="style/category.css">
+    </head>
+    <body>
+        <header class="header">
+            <a href="index.html" class="header__logo">
+                <img src="assets/images/logo-white.png" alt="Star Wars Logo">
+            </a>
+
+            <nav class="header__navigation">
+                <ul class="navigation__listView" role="navigation">
+                    <li class="listView__listItem">
+                        <a href="category.html?c=films">Films</a>
+                    </li>
+                    <li class="listView__listItem">
+                        <a href="category.html?c=people">People</a>
+                    </li>
+                    <li class="listView__listItem">
+                        <a href="category.html?c=planets">Planets</a>
+                    </li>
+                    <li class="listView__listItem">
+                        <a href="category.html?c=starships">Starships</a>
+                    </li>
+                    <li class="listView__listItem">
+                        <a href="category.html?c=vehicles">Vehicles</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <form action="category.html" class="searchForm searchForm--small">
+                <div>
+                    <input type="text" class="searchForm__input" id="mainSearch" name="c">
+                    <button type="submit" class="searchForm__submit">Search</button>
+                </div>
+            </form>
+
+            <section class="resultsSection">
+
+            </section>
+        </main>
+
+        <!-- <footer>
+            <section class="footerSection footerSection__top">
+                <img src="assets/images/logo-white.png" alt="">
+                <div>
+                    <h3>Star Wars API</h3>
+                </div>
+            </section>            
+        </footer> -->
+
+        <script src="scripts/getStarWars.js" type="module"></script>
+    </body>
+</html>

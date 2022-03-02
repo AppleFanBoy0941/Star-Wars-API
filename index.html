@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Star Wars API</title>
+        <link rel="stylesheet" href="style/index.css">
+    </head>
+    <body>
+        <header class="header">
+            <a href="index.html" class="header__logo">
+                <img src="assets/images/logo-white.png" alt="Star Wars Logo">
+            </a>
+
+            <nav class="header__navigation">
+                <ul class="navigation__listView" role="navigation">
+                    <li class="listView__listItem">
+                        <a href="category.html?c=films">Films</a>
+                    </li>
+                    <li class="listView__listItem">
+                        <a href="category.html?c=people">People</a>
+                    </li>
+                    <li class="listView__listItem">
+                        <a href="category.html?c=planets">Planets</a>
+                    </li>
+                    <li class="listView__listItem">
+                        <a href="category.html?c=starships">Starships</a>
+                    </li>
+                    <li class="listView__listItem">
+                        <a href="category.html?c=vehicles">Vehicles</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <main>
+            <form action="category.html" class="searchForm searchForm--large">
+                <h1>Search Star Wars ...</h1>
+                <div>
+                    <input type="text" class="searchForm__input" id="mainSearch" name="c">
+                    <button type="submit" class="searchForm__submit">Search</button>
+                </div>
+            </form>
+
+            <section class="searchResults">
+
+            </section>
+        </main>
+    </body>
+</html>

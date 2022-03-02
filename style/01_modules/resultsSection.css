@@ -1,0 +1,49 @@
+.resultsSection {
+    max-width: 964px;
+    margin: 3rem auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.result {
+    background: var(--neutral500);
+    padding: 2rem 1rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    transition: .3s;
+    box-shadow: 0 0 var(--neutral600);
+}
+
+.result:hover {
+    background: var(--neutral600);
+    box-shadow: 0 0 0 .25rem var(--primary);
+}
+
+.result__episodeId {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary);
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100px;
+    margin-bottom: 1rem;
+    font-size: 18px;
+    font-weight: 900;
+    color: var(--neutral600);
+    font-family: 'Space Mono';
+}
+
+.result__header {
+    font-size: 1.4rem;
+}
+
+.result__planet {
+    height: 4rem;
+    width: 4rem;
+    margin-bottom: 1rem;
+    background: var(--tertiary);
+    border-radius: 100px;
+}
